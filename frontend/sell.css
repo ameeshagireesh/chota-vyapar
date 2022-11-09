@@ -1,0 +1,294 @@
+/* Defining of Colors: */
+:root{
+    --dark-purp: rgb(137, 138, 166);
+    --lilac: rgb(201, 187, 207);
+    --blue: rgb(183, 211, 223);
+    --tealblue-light: rgb(214, 239, 237);
+
+
+
+   --light-beige: rgb(240, 235, 227);
+    --dark-beige: rgb(228, 220, 207);
+    --vin-green: rgb(125, 157, 156);
+    --dark-green: rgb(87, 111, 114);
+
+
+
+   --pink: rgb(242, 215, 217);
+    --light-lilac: rgb(211, 206, 223);
+    --dark-blue: rgb(156, 180, 204);
+    --darkest-blue: rgb(116, 141, 166);
+
+
+
+   --peach-pink: rgb(255, 230, 230);
+    --dark-pink: rgb(242, 209, 209);
+    --powd-blue: rgb(218, 234, 241);
+    --grey-blue: rgb(198, 220, 228);
+
+
+
+
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+/*End of Defining of Colors: */
+
+
+/* CSS Common */
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+    font-weight: lighter;
+}
+/* End of CSS Common */
+
+
+#mainNavbar .navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 1em;
+}
+
+#mainNavbar{
+  background-color: #DDDCFF;
+  padding: 1em;
+  font-size: 1.10rem;
+  font-weight: bold;
+}
+
+#navLinks{
+  font-weight: 500;
+  padding-right: 5em;
+  text-decoration: underline;
+}
+
+
+/* ################################# */
+
+/*start of content of page*/
+
+.main-section{
+  margin-top:4.5rem;
+  /* background: linear-gradient(#6495ED, #243b55); */
+  /* background: linear-gradient(#e0b0ff, var(--lilac)); */
+  background-color: var(--light-beige);
+  padding: 2rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.phone-container{
+  padding-left: 9rem;
+}
+
+/* start selling form style */
+ body {
+    margin-right:0;
+    padding:0;
+}
+
+
+  .login-box {
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+/*     box-shadow: 0 15px 25px rgba(0,0,0,.6); */
+    border-radius: 10px;
+  }
+
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #E6E6FA;
+    text-align: center;
+  }
+
+  .login-box .user-box {
+    position: relative;
+  }
+
+  .login-box .user-box input, select{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--light-beige);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--light-beige);
+    pointer-events: none;
+    transition: .5s;
+
+  }
+
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:active ~ label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff ;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 30px;
+    letter-spacing: 4px;
+  }
+
+  .login-box a:hover {
+    background: #77dd77;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #77dd77,
+                0 0 25px #77dd77,
+                0 0 50px #fff,
+                0 0 100px #DCD0FF;
+  }
+
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+
+
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+
+/* end selling form style */
+
+.big-heading{
+  text-align:center;
+  font-size:4rem;
+  padding-top:5rem;
+}
+
+.small-heading{
+    text-align:center;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.spanword{
+  color:#77dd77;
+}
+
+
+/* Start of Second page */
+.second-page{
+  /* Created with https://www.css-gradient.com */
+
+  /* background: linear-gradient(#eacda3 , #d6ae7b); */
+  background-color: var(--grey-blue);
+}
+
+.second-page .top-title{
+  padding: 3rem;
+  padding-top: 6rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.second-page .points
+{
+  padding-top: 6rem;
+  text-align: center;
+  width: 80%;
+  margin:auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.selling-image{
+  width:15rem;
+  height:11rem;
+  border-radius: 10%;
+  margin: auto;
+}
+
+.image-caption{
+  padding-top: 1rem;
+}
+
+.solutions{
+  padding: 10rem;
+}
+
+.selling-image4{
+  width:30rem;
+  height:15rem;
+  float:right;
+  border-radius: 5%
+}
+
+.solution-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.solution-list li:before {
+  content: '✓';
+  padding-right: .4rem;
+  margin-left: 0;
+}
+/* End of second page */
+
+/* Start of Footer CSS */
+footer{
+  position:static;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .credit{
+  font-size: 1rem;
+  color:var(--black);
+}
+
+.contact{
+height:2.5rem;
+font-size: 1rem;
+color: black;
+text-decoration: none;
+}

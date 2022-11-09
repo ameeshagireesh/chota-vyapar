@@ -1,0 +1,255 @@
+:root{
+    --dark-purp: rgb(137, 138, 166);
+    --lilac: rgb(201, 187, 207);
+    --blue: rgb(183, 211, 223);
+    --tealblue-light: rgb(214, 239, 237);
+
+    --light-beige: rgb(240, 235, 227);
+    --dark-beige: rgb(228, 220, 207);
+    --vin-green: rgb(125, 157, 156);
+    --dark-green: rgb(87, 111, 114);
+
+    --pink: rgb(242, 215, 217);
+    --light-lilac: rgb(211, 206, 223);
+    --dark-blue: rgb(156, 180, 204);
+    --darkest-blue: rgb(116, 141, 166);
+
+    --peach-pink: rgb(255, 230, 230);
+    --dark-pink: rgb(242, 209, 209);
+    --powd-blue: rgb(218, 234, 241);
+    --grey-blue: rgb(198, 220, 228);
+
+
+    --border:.1rem solid rgba(0,0,0,.2);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.logo{
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    font-family: 'Figtree', sans-serif;
+    font-weight: lighter;
+    padding-top: 4rem;
+    background-color: #fdf7fa;
+}
+
+
+.header{
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background: var(--dark-purp);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    padding:1.2rem 7%;
+}
+
+#mainNavbar .navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 1em;
+}
+
+#mainNavbar{
+  background-color: #DDDCFF;
+  padding: 1em;
+  font-size: 1.10rem;
+  font-weight: bold;
+}
+
+#navLinks{
+  font-weight: 500;
+  padding-right: 5em;
+  text-decoration: underline;
+}
+
+
+
+
+.container{
+  position: relative;
+  text-align: center;
+  padding-top: 1.75rem;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 4rem;
+}
+
+@media (max-width: 768px){
+  .container{
+    display: none;
+  }
+}
+
+.ctitle{
+  position: absolute;
+  margin-top: 0px;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.desc{
+    position: absolute;
+    font-size: 2rem;
+
+    width: 100%;
+    height: 100%;
+    top: -10%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.author{
+  position: absolute;
+  text-align: right;
+  font-size: 1.5rem;
+  top: 43%;
+  left: 70%
+}
+
+
+/* --------------------- */
+
+
+.card-l, .card-m, .card-r{
+  border: 1px solid black;
+  width: 20rem;
+  border-radius: 0.5em;
+  padding: 0.75em;
+  text-align: center;
+  color: #f8f7ff;
+  background-color: #565264f2;
+  transition: all 0.25s;
+}
+
+h5{
+  text-align: center;
+  letter-spacing: 0.25em;
+  font-weight: bold;
+  padding-top: 0.5em;
+}
+
+.card-l{
+  box-shadow: -0.25em 0.25em 0.5em grey;
+}
+
+.card-m{
+  box-shadow: 0 0.5em 0.5em -0.25em grey;
+}
+
+.card-r{
+  box-shadow: 0.25em 0.25em 0.5em grey;
+}
+
+.card-l:hover{
+  transform: translateY(-0.25em);
+}
+
+.card-m:hover{
+  transform: translateY(-0.25em);
+}
+
+.card-r:hover{
+  transform: translateY(-0.25em);
+}
+
+.wrapper{
+  display: inline;
+  vertical-align: middle;
+  font-weight: bold;
+  height: 1.75em;
+  width: 4em;
+  background: #8e9aaf;
+  border: 1px solid black;
+  border-radius: 0.25em;
+  padding: 0.35em;
+}
+
+.wrapper span{
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 1.25em;
+  cursor: pointer;
+  user-select: none;
+}
+
+.wrapper span.num{
+  padding: 0 0.4em 0 0.4em;
+  font-size: 1em;
+  border-right: 1px solid rgba(0,0,0,0.4);
+  border-left: 1px solid rgba(0,0,0,0.4);
+  pointer-events: none;
+}
+
+span{
+  font-size: 1.30em;
+  padding: 0 0.25em;
+}
+
+
+/* --------------------- */
+
+
+.desc1{
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  word-spacing: 0.25em;
+}
+
+
+/* --------------------- */
+
+
+.btn{
+  color: #f8f7ff;
+  background-color: #8e9aaf;
+  font-weight: bolder;
+  letter-spacing: 0.25em;
+  word-spacing: 0.25em;
+  border: 1px solid black;
+}
+
+.btn:hover{
+  background-color: #8e9aafe0;
+}
+
+.btn:focus{
+    background: #8e9aafe0;
+}
+
+
+/* --------------------- */
+
+
+footer{
+  position:static;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer .credit{
+  font-size: 1rem;
+  color:var(--black);
+}
+
+.contact{
+height:2.5rem;
+font-size: 1rem;
+color: black;
+text-decoration: none;
+}

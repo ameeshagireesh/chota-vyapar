@@ -1,8 +1,12 @@
+# Chota Vyapar
+
 An e-commerce website for developing small businesses to sell their products.
 
-Project Group - RussianFoosballMafia
+__Project Group__ - RussianFoosballMafia
 
-Group members
-1. Ameesha Gireesh - 20BCB0107
-2. Monali Nayak - 20BCE2731 
-3. Abnisha Paudel - 20BCI0329
+__Group members__
+<ol>
+    <li> Ameesha Gireesh - 20BCB0107
+    <li> Monali Nayak - 20BCE2731 
+    <li> Abnisha Paudel - 20BCI0329
+</ol>

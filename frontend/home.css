@@ -60,7 +60,7 @@ span{
   background: #8e9aafe0 !important;
   font-weight: 500 !important;
   letter-spacing: 0.25em;
-  word spacing: 0.25em;
+  word-spacing: 0.25em;
   border: 1px solid blue;
   transition: all 0.25s !important;
 }

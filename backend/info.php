@@ -1,5 +1,6 @@
 
 <?php
+//change these variables respective to your system
 $servername = "localhost";
 $username = "root";
 $password = "root";
@@ -36,10 +37,3 @@ echo "Error registering you as a small business " . $sql . "<br>" . $conn->error
 
 $conn->close();
 ?>
-
-
-
-
-
-
-

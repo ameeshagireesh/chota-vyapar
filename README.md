@@ -63,6 +63,7 @@ chota-vyapar
 │   │   ├── shop.css
 │   ├── registered.html
 ├── images
+├── .gitignore
 └── README.md
 ```
 
